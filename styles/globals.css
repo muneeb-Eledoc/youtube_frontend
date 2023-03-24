@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+.progress-indicator{
+    transition: all 0s;
+}
+.progress-bar:hover .progress-indicator{
+    transform: scaleX(1.30);
+}
+@tailwind utilities;
